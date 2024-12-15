@@ -1,0 +1,34 @@
+# Windows'a özgü dosyalar
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS'a özgü dosyalar
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS sistem dosyaları
+Icon?
+._*
+
+# Windows ve macOS geçici dosyaları
+*.tmp
+*.swp
+*.swo
+
+# Node.js ve npm bağımlılıkları (eğer kullanıyorsanız)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Derleme çıktıları
+dist/
+build/
+
+# Editör ve IDE dosyaları
+.vscode/
+.idea/
+*.log
